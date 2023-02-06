@@ -1,5 +1,5 @@
 header {
-    background-color: var(--c-blu);
+    background-color: var(--c-blue);
 }
 
 header nav .hamburger ul {
@@ -27,6 +27,7 @@ header nav {
 header .btn {
     background-color: #fff;
     color: var(--c-text);
+    padding: .4375rem .9375rem;
 }
 
 

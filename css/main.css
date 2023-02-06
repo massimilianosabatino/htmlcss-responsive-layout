@@ -1,0 +1,59 @@
+/*
+*  Overview
+*/
+#overview {
+    margin-top: 3.125rem;
+    margin-bottom: 5rem;
+}
+
+#overview h3 {
+    color: var(--c-blue);
+}
+
+#overview .btn {
+    background-color: var(--c-blue);
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+    letter-spacing: .125rem;
+    font-weight: 400;
+}
+
+#overview .col > img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.card.col > i {
+    font-size: 6rem;
+    color: var(--c-blue);
+    margin: 1.5625rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    #overview .card {
+        width: calc((100% - 50px) / 3);
+    }
+    #overview .card:first-child {
+        width: calc(((100% - 50px) / 3) * 2 + 25px);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #overview .card:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #overview .card:first-child {
+        display: flex;
+    }
+}
+
+
+/*
+*  Planning
+*/
