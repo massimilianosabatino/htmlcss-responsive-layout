@@ -57,3 +57,80 @@
 /*
 *  Planning
 */
+#planning {
+    background-color: var(--c-violet);
+    color: #fff;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+
+#planning .col img {
+    width: 100%;
+}
+
+#planning h2 {
+    margin-top: 5rem;
+    margin-bottom: 3.125rem;
+}
+
+#planning .card {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin-top: 2.1875rem;
+}
+
+#planning .card h3 {
+    font-weight: 600;
+}
+
+#planning .card p {
+    font-style: italic;
+    margin-bottom: 2.1875rem;
+}
+
+#planning .card .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+    color: #000;
+}
+
+@media screen and (min-width: 768px) {
+    #planning h2 {
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #planning {
+        padding-top: 8.4375rem;
+    }
+
+    #planning .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        max-width: 875px;
+        margin: 0 auto;
+    }
+
+    #planning .col {
+        width: calc((100% - 60px) / 2);
+    }
+
+    #planning .card {
+        margin-bottom: 0;
+    }
+
+    #planning .card img{
+        width: 70%;
+    }
+
+    #planning h2 {
+        font-size: 2.125rem;
+        margin-top: 8.125rem;
+    }
+}
