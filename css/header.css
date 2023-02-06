@@ -1,0 +1,46 @@
+header {
+    background-color: var(--c-blu);
+}
+
+header nav .hamburger ul {
+    display: none;
+}
+
+header nav .hamburger:hover ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hamburger {
+    text-align: right;
+}
+
+.hamburger i {
+    font-size: 1.375rem;
+    color: #fff;
+}
+
+header nav {
+    padding: 1.125rem 1.875rem;
+}
+
+header .btn {
+    background-color: #fff;
+    color: var(--c-text);
+}
+
+
+@media screen and (min-width: 992px) {
+    header nav {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 1.123rem 0;
+    }
+    header nav .hamburger i {
+        display: none;
+    }
+    header nav .hamburger ul {
+        display: flex;
+    }
+
+}

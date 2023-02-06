@@ -1,0 +1,59 @@
+/*
+*  Typo
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--c-text);
+}
+
+header {
+    font-size: 1.125rem;
+}
+
+
+/*
+*  Commons
+*/
+.container {
+    max-width: 1140px;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.a-item-center {
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1.875rem;
+}
+
+nav ul a:last-child {
+    margin-right: 0;
+}
+
+header img {
+    display: block;
+}
+
+.btn {
+    background-color: var(--c-violet);
+    border-radius: 2rem;
+    padding: .4375rem .9375rem;
+}

@@ -1,4 +1,11 @@
 /*
+*  Import
+*/
+@import "common.css";
+@import "header.css";
+@import "main.css";
+
+/*
 *  Reset
 */
 * {
@@ -8,8 +15,11 @@
 }
 
 /*
-*  Import
-*/
-@import 'common.css';
-@import 'header.css';
-@import 'main.css';
+*  Variables
+*/ 
+:root {
+    --c-blu: #0084fd;
+    --c-violet: #9792e4;
+    --c-orange: #fdc15f;
+    --c-text: #546e7f;
+}
